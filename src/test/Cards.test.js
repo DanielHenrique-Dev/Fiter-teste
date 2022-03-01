@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { render, screen } from '@testing-library/react';
-import { Cards } from './Cards';
+import { Cards } from '../components/Cards';
 
 const info = {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'}
 
