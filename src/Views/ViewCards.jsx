@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Cards } from "../components/Cards";
+import { Cards } from "../Components/Cards";
 import { CardService } from "../Service/CardService";
 
 export const ViewCards = () => {
