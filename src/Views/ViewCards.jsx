@@ -4,23 +4,7 @@ import { CardService } from "../Service/CardService";
 
 export const ViewCards = () => {
 
-    const info = [{nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'},
-                    {nome: 'Daniel', foto: '', cargo: 'Desenvolvedor Jr.', telefone: '999856897'}]
-    /* const [info, setInfo] = useState([]);
+    const [info, setInfo] = useState([]);
 
     const getInfo = async () => {
         const response = await CardService.getCollaborators();
@@ -29,7 +13,7 @@ export const ViewCards = () => {
 
     useEffect(() => {
         getInfo();
-    }, []); */
+    }, []);
     
     if(info.length == 0){
       
