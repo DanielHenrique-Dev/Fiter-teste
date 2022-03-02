@@ -26,16 +26,9 @@ export const ViewCards = () => {
     } else {
 
         return (
-            <div className="card-columns">
+            <div className="card-deck">
                 { 
-                    info.map((info, i) => {
-
-                        return (
-                                <>
-                                    <Cards key={i} card={info}/>
-                                </>
-                        )
-                    })
+                    info.map((info, i) => (  <Cards key={i} card={info}/> ) )
                 }
             </div>
         )
