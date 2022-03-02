@@ -15,7 +15,7 @@ export const ViewCards = () => {
         getInfo();
     }, []);
     
-    if(info.length == 0){
+    if(info.length === 0){
       
       return (
         <div className="alert alert-primary col-sm-9 col-md-12" role="alert">
